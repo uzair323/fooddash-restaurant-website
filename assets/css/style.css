@@ -1,0 +1,259 @@
+:root {
+    --bs-primary: #FF7B2B;
+    --bs-primaryclick: #f9680d;
+}
+
+.header-bg {
+    background-color: #FFEFE6;
+}
+
+.nav-font {
+    color: #939393;
+    font-family: "Lexend", sans-serif;
+}
+
+.nav-font:hover,
+.nav-foc:focus {
+    color: #2A2A2A;
+}
+
+.search-icon {
+    background-color: #FF6000;
+    color: #FFFFFF;
+}
+
+.header-txt {
+    color: #FF6000;
+    font-family: "Lexend", sans-serif;
+    font-size: 2.7rem;
+    font-weight: 700;
+}
+
+.header-font-color {
+    color: #2A2A2A;
+}
+
+.header-btn {
+    background-color: var(--bs-primary) !important;
+    border-color: var(--bs-primary) !important;
+    font-family: "Lexend", sans-serif;
+}
+
+.header-btn:hover,
+.header-btn:focus {
+    background-color: var(--bs-primaryclick) !important;
+}
+
+.header-btn2 {
+    color: var(--bs-primary);
+    border-color: var(--bs-primary) !important;
+    font-family: "Lexend", sans-serif
+}
+
+.header-btn2:hover,
+.header-btn2:focus {
+    background-color: var(--bs-primaryclick) !important;
+    color: #FFFFFF;
+}
+
+.shadow {
+    border-radius: 1rem;
+}
+
+.delivery-heading {
+    font-family: "Lexend", sans-serif;
+    font-weight: 600;
+}
+
+.delivery-description {
+    font-family: "Lexend", sans-serif;
+    color: #939393;
+}
+
+.best-deliverd-description {
+    font-family: "Lexend", sans-serif;
+    color: #939393;
+}
+
+.best-food-name {
+    font-family: "Lexend", sans-serif;
+    color: #2A2A2A;
+    font-weight: 500;
+}
+
+.best-food-btn {
+    font-family: "Lexend", sans-serif;
+    color: #FF6000;
+    font-weight: 500;
+}
+
+.best-food-btn:hover,
+.best-food-btn:focus {
+    color: #ed9863;
+}
+
+.card {
+    background-color: #FFEFE6;
+}
+
+.food-name {
+    font-family: "Lexend", sans-serif;
+    font-weight: 500;
+    color: #FF6000;
+    font-size: 1.2rem;
+}
+
+.star {
+    color: #FFC700;
+}
+
+.card-btn {
+    background-color: var(--bs-primary) !important;
+    font-family: "Lexend", sans-serif;
+    font-size: 10px;
+}
+
+.footer-bg {
+    background-color: #FFEFE6;
+    border-top: dashed;
+}
+
+.footer-font {
+    color: #939393;
+    font-family: "Lexend", sans-serif;
+
+}
+
+.follow-us {
+    font-family: "Wendy One", sans-serif;
+    color: #FF6000;
+    font-weight: 900;
+    font-size: 1.7rem;
+}
+
+.footer-menu {
+    font-size: 2rem;
+    color: #FF6000;
+    font-weight: 600;
+}
+
+@media(max-width: 768px) {
+    .header-txt {
+        font-size: 1.4rem;
+    }
+
+    .header-btn {
+        font-size: 10px;
+    }
+
+    .header-btn2 {
+        font-size: 10px;
+    }
+
+    .delivery-heading {
+        font-size: 14px;
+    }
+
+    .delivery-description {
+        font-size: 10px;
+    }
+
+    .best-deliverd-description {
+        font-size: 10px;
+    }
+
+    .card {
+        margin-top: 1.5rem;
+    }
+
+    .best-food-name {
+        font-size: 12px;
+    }
+
+    .best-food-btn {
+        font-size: 10px;
+    }
+
+    .food-name {
+        font-size: 14px;
+    }
+
+    .star {
+        font-size: 14px;
+    }
+
+    .card-btn {
+        font-size: 8px;
+    }
+
+    .footer-font {
+        font-size: 10px;
+    }
+
+    .follow-us {
+        font-size: 12px;
+    }
+
+    .footer-menu {
+        font-size: 1rem;
+    }
+}
+
+
+@media(max-width: 576px) {
+    .header-txt {
+        font-size: 12px;
+    }
+
+    .header-btn {
+        font-size: 8px;
+    }
+
+    .header-btn2 {
+        font-size: 8px;
+    }
+
+    .delivery-heading {
+        font-size: 1rem;
+    }
+
+    .delivery-description {
+        font-size: 12px;
+    }
+
+    .best-deliverd-description {
+        font-size: 8px;
+    }
+
+    .card {
+        margin-top: 1.5rem;
+    }
+
+    .best-food-name {
+        font-size: 8px;
+    }
+
+    .best-food-btn {
+        font-size: 10px;
+    }
+
+    .star {
+        font-size: 1rem;
+    }
+
+    .card-btn {
+        font-size: 12px;
+    }
+
+    .footer-font {
+        font-size: 12px;
+    }
+
+    .follow-us {
+        font-size: 1rem;
+    }
+
+    .footer-menu {
+        font-size: 1.2rem;
+    }
+}
